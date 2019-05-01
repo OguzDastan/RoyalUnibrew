@@ -10,6 +10,7 @@
 
     <Grid>
         <TextBlock>Hi!</TextBlock>
-        <TextBlock>Ogus Dastan er Chefen</TextBlock>
+       
+        <TextBlock>Ogus Dastan er Chefen ost</TextBlock>
     </Grid>
 </Page>
