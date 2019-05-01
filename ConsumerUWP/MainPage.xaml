@@ -10,7 +10,7 @@
 
     <Grid>
         <TextBlock>Hi!</TextBlock>
-       
+        <TextBlock>Pølser</TextBlock>
         <TextBlock>Ogus Dastan er Chefen ost</TextBlock>
         <TextBlock>Kage</TextBlock>
     </Grid>
