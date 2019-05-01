@@ -10,9 +10,8 @@
 
     <Grid>
         <TextBlock>Hi!</TextBlock>
-       
+        <TextBlock>Bøffer</TextBlock>
         <TextBlock>Ogus Dastan er Chefen ost</TextBlock>
-        <TextBlock>Ogus Dastan er Chefen</TextBlock>
         <TextBlock>Kage</TextBlock>
     </Grid>
 </Page>
