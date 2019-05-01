@@ -9,8 +9,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock>Hi!</TextBlock>
-        <TextBlock>Ogus Dastan er Chefen</TextBlock>
-        <TextBlock>Kage</TextBlock>
+<TextBlock>Hi!</TextBlock>
     </Grid>
 </Page>
