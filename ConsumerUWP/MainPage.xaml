@@ -9,10 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock>Hi!</TextBlock>
-        <TextBlock>Bøffer</TextBlock>
-        <TextBlock>Ogus Dastan er Chefen ost</TextBlock>
-        <TextBlock>Kage</TextBlock>
-        <TextBlock>Kagemand</TextBlock>
+        
+        <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Center" MinWidth="500" MinHeight="300" Background="#373737">
+            
+        </StackPanel>
     </Grid>
 </Page>
