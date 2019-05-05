@@ -8,10 +8,19 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        
-        <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Center" MinWidth="500" MinHeight="300" Background="#373737">
-            
+    <Grid MinHeight="300" MinWidth="600">
+        <Grid.Background>
+            <ImageBrush ImageSource="img/background_archivedbo_v1.jpg" />
+        </Grid.Background>
+        <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="White">version 1.0</TextBlock>
+
+        <StackPanel x:Name="WelcomeBox" HorizontalAlignment="Center" VerticalAlignment="Center" MinWidth="300" MinHeight="100" Padding="30">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="30" Margin="0,0,0,30" Foreground="White" FontWeight="Bold">Log ind</TextBlock>
+
+            <TextBox x:Name="tb_username" PlaceholderText="Brugernavn" Padding="5" Margin="0,0,0,15"></TextBox>
+            <TextBox x:Name="tb_password" PlaceholderText="Password" Padding="5" ></TextBox>
+
+            <Button Content="Log på" Background="#B64e33" Foreground="White"  Margin="0,10,0,0"></Button>
         </StackPanel>
     </Grid>
 </Page>
