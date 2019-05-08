@@ -116,8 +116,8 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="admin\Overview.xaml.cs">
-      <DependentUpon>Overview.xaml</DependentUpon>
+    <Compile Include="admin\Admin_Overview.xaml.cs">
+      <DependentUpon>Admin_Overview.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
     <Compile Include="ViewModels\App.xaml.cs">
@@ -153,7 +153,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="admin\Overview.xaml">
+    <Page Include="admin\Admin_Overview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
