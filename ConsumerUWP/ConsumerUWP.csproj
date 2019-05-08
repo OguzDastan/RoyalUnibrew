@@ -121,9 +121,6 @@
     </Compile>
     <Compile Include="App.xaml.cs">
     </Compile>
-    <Compile Include="operator\TargetArc.xaml.cs">
-      <DependentUpon>TargetArc.xaml</DependentUpon>
-    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -163,10 +160,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="operator\Overview.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="operator\TargetArc.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
