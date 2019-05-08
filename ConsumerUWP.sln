@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerUWP", "ConsumerUWP\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestService", "RestService\RestService.csproj", "{E90EF7EA-6596-4CDC-9EE4-8557D26386C5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{157402AE-4D40-495A-B66A-C7BC03F2BA14}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{57699971-EAF1-409D-BB7F-7282DF7F53BC}"
 EndProject
 Global
@@ -95,9 +93,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{57699971-EAF1-409D-BB7F-7282DF7F53BC} = {157402AE-4D40-495A-B66A-C7BC03F2BA14}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6019D2B1-A84A-440E-998F-DED1B95CD992}
