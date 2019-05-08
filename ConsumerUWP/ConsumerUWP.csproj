@@ -119,7 +119,7 @@
     <Compile Include="admin\Admin_Overview.xaml.cs">
       <DependentUpon>Admin_Overview.xaml</DependentUpon>
     </Compile>
-    <Compile Include="App.xaml.cs">
+    <Compile Include="App.xaml.cs"></Compile>
     <Compile Include="ViewModels\App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
