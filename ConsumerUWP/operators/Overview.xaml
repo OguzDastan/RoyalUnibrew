@@ -10,7 +10,9 @@
 
     <Grid>
         <Button VerticalAlignment="Top" HorizontalAlignment="Left" Content="Back to login" Click="Button_Click"></Button>
-        <TextBox VerticalContentAlignment="Top"></TextBox>
+        <TextBox VerticalContentAlignment="Top" HorizontalAlignment="Center" Text="Vælg kolonne"></TextBox>
+        <Button VerticalAlignment="Center" HorizontalAlignment="Left" Content="Kolonne 1" Click="Button_Click"></Button>
+        <Button VerticalAlignment="Center" HorizontalAlignment="Right" Content="Kolonne 2" Click="Button_Click"></Button>
 
     </Grid>
 </Page>
