@@ -9,6 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock>Admin View!!!!!!!</TextBlock>
+        <StackPanel>
+            <TextBlock> asdasoidijasdoiasdoi</TextBlock>
+        </StackPanel>
     </Grid>
 </Page>

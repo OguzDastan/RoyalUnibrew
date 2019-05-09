@@ -10,6 +10,7 @@
 
     <Grid>
         <Button VerticalAlignment="Top" HorizontalAlignment="Left" Content="Back to login" Click="Button_Click"></Button>
-       
+        <TextBox VerticalContentAlignment="Top"></TextBox>
+
     </Grid>
 </Page>
