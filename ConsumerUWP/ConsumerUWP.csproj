@@ -124,7 +124,7 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="operators\Overview.xaml.cs">
+    <Compile Include="Overview.xaml.cs">
       <DependentUpon>Overview.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\Annotations.cs" />
@@ -161,7 +161,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="operators\Overview.xaml">
+    <Page Include="Overview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -180,7 +180,9 @@
       <Name>Models</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="operators\" />
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

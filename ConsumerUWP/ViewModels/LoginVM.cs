@@ -61,7 +61,7 @@ namespace ConsumerUWP.ViewModels
             else if (Session.CurrentUser.AccessLevel == User.AccessLevels.USER)
             {
                 Frame curr = (Frame)Window.Current.Content;
-               curr.Navigate(typeof(operators.Overview));
+               curr.Navigate(typeof(Overview));
             }
         }
 
