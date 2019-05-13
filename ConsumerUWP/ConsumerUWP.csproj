@@ -116,44 +116,16 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Admin_Overview.xaml.cs">
+    <Compile Include="admin\Admin_Overview.xaml.cs">
       <DependentUpon>Admin_Overview.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
     </Compile>
-    <Compile Include="K_views\K11.xaml.cs">
-      <DependentUpon>K11.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="K_views\K12.xaml.cs">
-      <DependentUpon>K12.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="K_views\K2.xaml.cs">
-      <DependentUpon>K2.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="K_views\K3.xaml.cs">
-      <DependentUpon>K3.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="K_views\K4.xaml.cs">
-      <DependentUpon>K4.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="K_views\K5.xaml.cs">
-      <DependentUpon>K5.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="K_views\K6.xaml.cs">
-      <DependentUpon>K6.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="K_views\K7.xaml.cs">
-      <DependentUpon>K7.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="K_views\K8.xaml.cs">
-      <DependentUpon>K8.xaml</DependentUpon>
-    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="NavigationItem.cs" />
-    <Compile Include="Operator_Overview.xaml.cs">
-      <DependentUpon>Operator_Overview.xaml</DependentUpon>
+    <Compile Include="operator\Overview.xaml.cs">
+      <DependentUpon>Overview.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -181,43 +153,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Admin_Overview.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="K_views\K11.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="K_views\K12.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="K_views\K2.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="K_views\K3.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="K_views\K4.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="K_views\K5.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="K_views\K6.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="K_views\K7.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="K_views\K8.xaml">
+    <Page Include="admin\Admin_Overview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -225,7 +161,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Operator_Overview.xaml">
+    <Page Include="operator\Overview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -244,9 +180,7 @@
       <Name>Models</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="operators\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

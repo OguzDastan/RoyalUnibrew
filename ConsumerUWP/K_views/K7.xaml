@@ -11,6 +11,5 @@
     <Grid>
         <TextBlock FontSize="34" x:Name="title" VerticalAlignment="Center" HorizontalAlignment="Stretch" Text="{Binding ElementName=listmenu, Path=SelectedItem.MenuText}" />
         <TextBlock FontSize="56">K7</TextBlock>
-        <TextBlock FontSize="96">This one is ours baby</TextBlock>
     </Grid>
 </Page>
