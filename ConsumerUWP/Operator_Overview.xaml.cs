@@ -21,29 +21,27 @@ namespace ConsumerUWP
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Overview : Page
+    public sealed partial class Operator_Overview : Page
     {
         private ObservableCollection<NavigationItem> menu = new ObservableCollection<NavigationItem>();
 
-        public Overview()
-
+        public Operator_Overview()
         {
             this.InitializeComponent();
             this.Loaded += MainPage_Loaded;
         }
-
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             menu.Clear();
-            menu.Add(new NavigationItem { PageLink = typeof(MainPage), MenuText = typeof(MainPage).Name, MenuIcon = "K2" });
-            menu.Add(new NavigationItem { PageLink = typeof(MainPage), MenuText = typeof(MainPage).Name, MenuIcon = "K3" });
-            menu.Add(new NavigationItem { PageLink = typeof(MainPage), MenuText = typeof(MainPage).Name, MenuIcon = "K4" });
-            menu.Add(new NavigationItem { PageLink = typeof(MainPage), MenuText = typeof(MainPage).Name, MenuIcon = "K5" });
-            menu.Add(new NavigationItem { PageLink = typeof(MainPage), MenuText = typeof(MainPage).Name, MenuIcon = "K6" });
-            menu.Add(new NavigationItem { PageLink = typeof(K7), MenuText = typeof(K7).Name, MenuIcon = "K7" });
-            menu.Add(new NavigationItem { PageLink = typeof(MainPage), MenuText = typeof(MainPage).Name, MenuIcon = "K8" });
-            menu.Add(new NavigationItem { PageLink = typeof(MainPage), MenuText = typeof(MainPage).Name, MenuIcon = "K11" });
-            menu.Add(new NavigationItem { PageLink = typeof(MainPage), MenuText = typeof(MainPage).Name, MenuIcon = "K12" });
+            menu.Add(new NavigationItem { PageLink = typeof(K_views.K2), MenuText = typeof(K_views.K2).Name, MenuIcon = "K2" });
+            menu.Add(new NavigationItem { PageLink = typeof(K_views.K3), MenuText = typeof(K_views.K3).Name, MenuIcon = "K3" });
+            menu.Add(new NavigationItem { PageLink = typeof(K_views.K4), MenuText = typeof(K_views.K4).Name, MenuIcon = "K4" });
+            menu.Add(new NavigationItem { PageLink = typeof(K_views.K5), MenuText = typeof(K_views.K5).Name, MenuIcon = "K5" });
+            menu.Add(new NavigationItem { PageLink = typeof(K_views.K6), MenuText = typeof(K_views.K6).Name, MenuIcon = "K6" });
+            menu.Add(new NavigationItem { PageLink = typeof(K_views.K7), MenuText = typeof(K_views.K7).Name, MenuIcon = "K7" });
+            menu.Add(new NavigationItem { PageLink = typeof(K_views.K8), MenuText = typeof(K_views.K8).Name, MenuIcon = "K8" });
+            menu.Add(new NavigationItem { PageLink = typeof(K_views.K11), MenuText = typeof(K_views.K11).Name, MenuIcon = "K11" });
+            menu.Add(new NavigationItem { PageLink = typeof(K_views.K12), MenuText = typeof(K_views.K12).Name, MenuIcon = "K12" });
         }
 
         private void MainPage_Loaded(object sender, RoutedEventArgs e)
