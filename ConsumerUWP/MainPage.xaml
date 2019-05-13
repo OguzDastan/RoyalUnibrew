@@ -20,7 +20,7 @@
             <TextBox x:Name="tb_username" PlaceholderText="Brugernavn" Padding="5" Margin="0,0,0,15"></TextBox>
             <TextBox x:Name="tb_password" PlaceholderText="Password" Padding="5" ></TextBox>
 
-            <Button Content="Log på" Click="Button_Click" Background="#B64e33" Foreground="White"  Margin="0,10,0,0"></Button>
+            <Button Content="Log på" Click="Button_Click" Foreground="White"  Margin="0,10,0,0"></Button>
         </StackPanel>
     </Grid>
 </Page>
