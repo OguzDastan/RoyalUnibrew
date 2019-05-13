@@ -121,6 +121,9 @@
     </Compile>
     <Compile Include="App.xaml.cs">
     </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Overview.xaml.cs">
       <DependentUpon>Overview.xaml</DependentUpon>
     </Compile>
