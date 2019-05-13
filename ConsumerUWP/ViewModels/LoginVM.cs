@@ -14,7 +14,6 @@ using Models;
 using User = Models.User;
 using ConsumerUWP;
 using ConsumerUWP.Annotations;
-using Microsoft.VisualBasic.CompilerServices;
 
 namespace ConsumerUWP.ViewModels
 {
@@ -61,7 +60,7 @@ namespace ConsumerUWP.ViewModels
             else if (Session.CurrentUser.AccessLevel == User.AccessLevels.USER)
             {
                 Frame curr = (Frame)Window.Current.Content;
-               curr.Navigate(typeof(Overview));
+                //curr.Navigate(typeof(operator.Overview));
             }
         }
 
