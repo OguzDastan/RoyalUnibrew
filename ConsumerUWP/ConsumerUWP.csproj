@@ -121,8 +121,9 @@
     </Compile>
     <Compile Include="App.xaml.cs">
     </Compile>
-    <Compile Include="MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
+    <Compile Include="Main_Page.xaml.cs">
+      <DependentUpon>Main_Page.xaml</DependentUpon>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </Compile>
     <Compile Include="Overview.xaml.cs">
       <DependentUpon>Overview.xaml</DependentUpon>
@@ -157,9 +158,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="Main_Page.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </Page>
     <Page Include="Overview.xaml">
       <SubType>Designer</SubType>

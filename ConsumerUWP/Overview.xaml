@@ -15,7 +15,7 @@
             <Button VerticalAlignment="Center" HorizontalAlignment="Left" Content="Kolonne 1" Click="Button_Click"></Button>
             <Button VerticalAlignment="Center" HorizontalAlignment="Center" Content="Kolonne 2" Click="Button_Click"></Button>
             <Button VerticalAlignment="Center" HorizontalAlignment="Right" Content="Kolonne 3" Click="Button_Click"></Button>
-            
+
         </StackPanel>
 
     </Grid>
