@@ -15,16 +15,16 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
-namespace ConsumerUWP.operator
+namespace ConsumerAppUWP.admin
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class TargetArc : Page
-{
-    public TargetArc()
+    public sealed partial class Admin_Overview : Page
     {
-        this.InitializeComponent();
+        public Admin_Overview()
+        {
+            this.InitializeComponent();
+        }
     }
-}
 }
